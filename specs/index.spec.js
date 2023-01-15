@@ -2,9 +2,9 @@ import supertest from "supertest";
 import { faker } from '@faker-js/faker';
 import { matchers } from 'jest-json-schema';
 import config from'../framework/config/config'
-import account from'../framework/helper/account'
+import account from'../framework/services/account'
 import { generateUser } from '../framework/utils/generate-user'
-import bookstore from "../framework/helper/bookStore";
+import bookstore from "../framework/services/bookStore";
 
 describe('bookStore', () => {
 
