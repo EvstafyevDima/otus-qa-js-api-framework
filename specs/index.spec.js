@@ -183,7 +183,7 @@ describe('GET Param BookStore/v1/Books', () => {
   [
     { isbn: config.isbn,  status: 200, bodyIsbn: config.isbn},
     { isbn: config.isbn2, status: 200, bodyIsbn: config.isbn2},
-    { isbn: "88888",      status: 400, bodyIsbn: undefined},
+    { isbn: "888988",      status: 400, bodyIsbn: undefined},
    
 ].forEach(({isbn, status, bodyIsbn}) => {
     test( 'Парам тест', async() => {
