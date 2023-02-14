@@ -24,7 +24,6 @@ describe('bookStore', () => {
     //const reqData = JSON.parse(JSON.stringify(createUser)).req;
     //console.log(reqData, "reqData createUser")
 
-
     //console.log(generateToken.status, "generateToken")
     //const reqData2 = JSON.parse(JSON.stringify(generateToken)).req;
     //console.log(reqData2, "reqData2 generateToken")
